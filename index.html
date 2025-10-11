@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WAGS INVESTMENT | With a Golden Spirit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      section {
+        scroll-margin-top: 80px;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <h1 class="text-2xl font-bold text-yellow-600">
+          WAGS <span class="text-gray-800">INVESTMENT</span>
+        </h1>
+        <nav class="space-x-6">
+          <a href="#home" class="hover:text-yellow-600 font-semibold">Home</a>
+          <a href="#buy" class="hover:text-yellow-600 font-semibold">Buy</a>
+          <a href="#rent" class="hover:text-yellow-600 font-semibold">Rent</a>
+          <a href="#invest" class="hover:text-yellow-600 font-semibold">Invest</a>
+          <a href="#manage" class="hover:text-yellow-600 font-semibold">Manage</a>
+          <a href="#contact" class="hover:text-yellow-600 font-semibold">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80');">
+      <div class="bg-black bg-opacity-50 p-10 rounded text-center text-white max-w-2xl">
+        <h2 class="text-4xl font-bold mb-4">With a Golden Spirit</h2>
+        <p class="text-lg mb-6">WAGS Investment — Turning real estate dreams into reality.</p>
+        <a href="#buy" class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded font-semibold">Get Started</a>
+      </div>
+    </section>
+
+    <!-- Buy Section -->
+    <section id="buy" class="py-20 bg-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 text-yellow-600">Buy Property</h2>
+        <p class="mb-8 max-w-2xl mx-auto">
+          Discover prime real estate listings tailored to your lifestyle and budget.
+          From luxury villas to affordable homes, WAGS helps you find your perfect match.
+        </p>
+        <img src="https://images.unsplash.com/photo-1560185008-5bf9a08b78f4?auto=format&fit=crop&w=1200&q=80" class="mx-auto rounded-lg shadow-lg" alt="Buy Property" />
+      </div>
+    </section>
+
+    <!-- Rent Section -->
+    <section id="rent" class="py-20 bg-gray-50">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 text-yellow-600">Rent Homes & Apartments</h2>
+        <p class="mb-8 max-w-2xl mx-auto">
+          Whether short-term or long-term, our rental properties guarantee comfort and quality.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-8">
+          <div class="w-full md:w-1/2 lg:w-1/3">
+            <video controls class="w-full rounded-lg shadow-lg">
+              <source src="https://cdn.pixabay.com/video/2021/04/13/70722-528914105_large.mp4" type="video/mp4">
+            </video>
+            <p class="mt-4 font-semibold">Luxury Apartment Tour</p>
+          </div>
+
+          <div class="w-full md:w-1/2 lg:w-1/3">
+            <video controls class="w-full rounded-lg shadow-lg">
+              <source src="https://cdn.pixabay.com/video/2021/06/23/78209-571180735_large.mp4" type="video/mp4">
+            </video>
+            <p class="mt-4 font-semibold">Modern Home Interior</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Invest Section -->
+    <section id="invest" class="py-20 bg-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 text-yellow-600">Invest with Confidence</h2>
+        <p class="mb-8 max-w-2xl mx-auto">
+          Secure your future by investing in profitable real estate ventures managed by experts.
+        </p>
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80" class="mx-auto rounded-lg shadow-lg" alt="Investment" />
+      </div>
+    </section>
+
+    <!-- Manage Section -->
+    <section id="manage" class="py-20 bg-gray-50">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 text-yellow-600">Property Management</h2>
+        <p class="mb-8 max-w-2xl mx-auto">
+          Let us handle your property — from maintenance to tenant management — ensuring peace of mind and maximum returns.
+        </p>
+        <img src="https://images.unsplash.com/photo-1581090468359-9b6c5a7b6c9e?auto=format&fit=crop&w=1200&q=80" class="mx-auto rounded-lg shadow-lg" alt="Management" />
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 text-yellow-600">Contact Us</h2>
+        <p class="mb-8">We’re here to help you with all your real estate needs.</p>
+
+        <form class="max-w-xl mx-auto bg-gray-50 p-8 rounded-lg shadow-md">
+          <input type="text" placeholder="Full Name" class="w-full mb-4 p-3 border rounded" required />
+          <input type="email" placeholder="Email Address" class="w-full mb-4 p-3 border rounded" required />
+          <textarea placeholder="Message" class="w-full mb-4 p-3 border rounded" rows="5" required></textarea>
+          <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded font-semibold w-full">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 text-center py-6">
+      <p>© 2025 WAGS INVESTMENT — With a Golden Spirit</p>
+    </footer>
+  </body>
+</html>
